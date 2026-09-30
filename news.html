@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="LUMINA — 山形の小さなヘアサロン。髪と暮らしに寄り添う、静かな美容室。">
+    <meta property="og:title" content="LUMINA hair salon">
+    <meta property="og:description" content="Small salon, beautiful moments.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#f5f1e9">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>NEWS — LUMINA hair salon</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav">
+            <a class="logo" href="index.html">LUMINA</a>
+            <button class="menu-btn" aria-label="メニュー"><span></span></button>
+            <nav class="nav-links">
+                <a href="index.html">TOP</a>
+                <a href="concept.html">CONCEPT</a>
+                <a href="menu.html">MENU</a>
+                <a href="staff.html">STAFF</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="news.html">NEWS</a>
+                <a href="access.html">ACCESS</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container reveal">
+                <p class="eyebrow">LUMINA / NEWS</p>
+                <h1 class="page-title">Journal</h1>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container narrow reveal">
+                <div class="news-list">
+                    <a class="news-item" href="#" 
+                        data-date="2026.09.20" 
+                        data-title="秋のケアメニューがスタートしました。" 
+                        data-content="今年の秋は、夏の紫外線でダメージを受けた髪と頭皮を集中ケアする新メニューをご用意しました。ぜひお試しください。">
+                        <time class="news-date">2026.09.20</time>
+                        <span class="news-title">秋のケアメニューがスタートしました。</span>
+                        <span class="news-arrow">↗</span>
+                    </a>
+
+                    <a class="news-item" href="#" 
+                        data-date="2026.08.31" 
+                        data-title="9月の定休日のお知らせ。" 
+                        data-content="平素は格別のご愛顧を賜り、厚く御礼申し上げます。9月の定休日は毎週月曜日および第3火曜日となります。">
+                        <time class="news-date">2026.08.31</time>
+                        <span class="news-title">9月の定休日のお知らせ。</span>
+                        <span class="news-arrow">↗</span>
+                    </a>
+
+                    <a class="news-item" href="#" 
+                        data-date="2026.08.12" 
+                        data-title="LUMINAのWebサイトをオープンしました。" 
+                        data-content="この度、LUMINAの公式Webサイトをオープンいたしました。サロンの情報やスタイル、ニュースなどを随時発信してまいります。">
+                        <time class="news-date">2026.08.12</time>
+                        <span class="news-title">LUMINAのWebサイトをオープンしました。</span>
+                        <span class="news-arrow">↗</span>
+                    </a>
+
+                    <a class="news-item" href="#" 
+                        data-date="2026.07.01" 
+                        data-title="夏の紫外線ケアについて。" 
+                        data-content="夏場は強い紫外線によって髪や頭皮が大きなダメージを受けます。サロンでのトリートメントや日傘・帽子での対策をおすすめします。">
+                        <time class="news-date">2026.07.01</time>
+                        <span class="news-title">夏の紫外線ケアについて。</span>
+                        <span class="news-arrow">↗</span>
+                    </a>
+                </div>
+
+                <!-- ポップアップ（モーダル）のHTML -->
+                <div id="news-modal" class="modal">
+                <div class="modal-content">
+                    <button id="modal-close" class="modal-close">&times;</button>
+                    <time id="modal-date" class="modal-date"></time>
+                    <h2 id="modal-title" class="modal-title"></h2>
+                    <div id="modal-body" class="modal-body"></div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-inner"><span class="logo">LUMINA</span><span>YAMAGATA / HAIR SALON　© <span
+                    data-year></span> LUMINA</span></div>
+    </footer>
+    <script src="js/main.js">
+        
+    </script>
+</body>
+
+</html>
